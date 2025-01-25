@@ -1,0 +1,48 @@
+-------------
+Title: Pride_And_Prejudice
+Number of Pages: 432
+Author: Jane_Austen
+Release Year: 1813
+--------------
+-------------
+Title: The_Great_Gatsby
+Number of Pages: 180
+Author: F_Scott_Fitzgerald
+Release Year: 1925
+--------------
+-------------
+Title: The_Hobbit
+Number of Pages: 310
+Author: JRR_Tolkien
+Release Year: 1937
+--------------
+-------------
+Title: 1984
+Number of Pages: 328
+Author: George_Orwell
+Release Year: 1949
+--------------
+-------------
+Title: Harry_Potter_And_The_Philosophers_Stone
+Number of Pages: 320
+Author: JK_Rowling
+Release Year: 1997
+--------------
+-------------
+Title: Astral_Awakening
+Number of Pages: 410
+Author: Liam_Parker
+Release Year: 2021
+--------------
+-------------
+Title: Silicon_Serenity
+Number of Pages: 352
+Author: Emma_Watson
+Release Year: 2022
+--------------
+-------------
+Title: Midnight_Mirrors
+Number of Pages: 288
+Author: Daniel_Miller
+Release Year: 2023
+--------------

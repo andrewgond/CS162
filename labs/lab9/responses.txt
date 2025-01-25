@@ -1,0 +1,25 @@
+• Which function are you going to make virtual?
+The functions I will make virtual are print_info() and gas_price() within the 
+vehicle class. This way each child object needs to calculate the price in its own
+way.
+
+• How will you make it polymorphic?
+It will be polymorphic because of how they are all children of the 
+vehicle class and how they can be pointed to by a vehicle pointer. 
+
+• Can it be a pure virtual function?
+The functions that can be pure virtual functions are print_info and gas_price. 
+
+• Which class have you made an abstract base class?
+The class I will make as an astract base class will be the vehicle class because
+its the parent and it needs certain things to be defined when an object type is called.
+
+• Do any of the destructors need to be virtual? If so, which one(s)
+They need to be virtual that way anything in the child classes that was created can be deleted.
+
+• What is the size and capacity of the vector? How to check them?
+The size of the vector is 10, and the capacity is 16. We can check through the 
+size and capacity funcitons that vectors have. 
+• Does your program have any memory leaks? Do you need to manually free the
+memory? Why or why not? 
+My program does not have memory leaks after deleting every individual one. 

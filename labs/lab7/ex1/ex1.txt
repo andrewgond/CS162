@@ -1,0 +1,23 @@
+1. Run the program with GDB and/or valgrind, which line in which file generates the segmentation fault?
+
+The line that generated the segementatio fault is at line 27 of main.cpp, in the functions of 
+ex1 of populate_garage and populate_car at lines 15 and 24.
+
+2. Use GDB commands that you learned from the previous lab to debug the program. What is the
+cause of this segmentation fault? What GDB commands did you use to find it? (Hint: all gdb
+commands you typed will be saved in .gdb_history file)
+
+The GDB commands I used to find this were: run, bt, break, next, and print. BT was particullarly helpful
+because it showed where exactly the segementation fault was happening and because of that I could find 
+which varaibles were getting mixed up 
+
+3. How did you fix the segmentation error?
+    I fixed the segmentation error by first properly defining the C* array in the garrage obeject,
+and then I found the indexing error on line 15 of the ex1.cpp and finished that.
+
+
+4. In GDB, what command did you use to verify that the Garage g object stores all information
+from the file.txt? Is there another error that needs to be fixed? 
+    The command that I could use to verify that Garage g object stored all the information was
+    with the print function before everything got deleted so i could check the individual varaibles
+    and see that the cars were filled. 

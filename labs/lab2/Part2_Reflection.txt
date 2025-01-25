@@ -1,0 +1,22 @@
+1. Can the value of the string (sentence) be changed with the modified function prototype? If so, how?
+	The value of the string (sentence) can only be changed and accessed if we get the address of the string 
+in memory with an & when it is called. This is because the modified function paramter is a pointer for an address
+rather than a pass by value.  
+
+
+
+2. Compared to using reference variables, what other modifications are required when making the 
+function call and inside the function?
+The other modifications that need to be made are when its called it needs the give the address of the variable
+with an & and needs to be dereferenced whenever it is used inside the function/
+
+
+3. What is the difference between an ampersand (&) and an asterisk (*) added in front of the parameter?
+Use a diagram to explain. 
+The difference between an & is that it gives the exact place in memory while the * makes a variable that points to
+where that is in memory. 
+
+Variable |  Represents   | Memory Location
+A        |       12      |  [FFFF12]  
+&A       |   [FFFF12]    | [FFFF12]
+*B = &A  |   [FFFF12]    | [FFFF16]
